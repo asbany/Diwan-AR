@@ -1,0 +1,44 @@
+@font-face {
+    font-family:GE-bold;
+    src: url(../css/fonts/GE_SS_Two_Bold.otf);
+}
+@font-face {
+    font-family:GE-mediam;
+    src: url(../css/fonts/GE_SS_Two_Medium.otf);
+}
+@font-face {
+    font-family:GE-light;
+    src: url(../css/fonts/GE_SS_Two_Light-1.otf);
+}
+
+:root,
+html,
+body {
+    font-size: 62.5%;
+    font-family: GE-light;
+}
+
+
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == xm {
+        @media (min-width:440px) and (max-width: 575.98px) {@content};
+    }
+
+    @if $breakpoint == sm {
+        @media (min-width:576px) {@content};
+    }
+
+    @if $breakpoint == md {
+        @media (min-width:768px) {@content};
+    }
+
+    @if $breakpoint == lg {
+        @media (min-width:992px) {@content};
+    }
+
+    @if $breakpoint == xl {
+        @media (min-width:1200px) {@content};
+    }
+
+}
