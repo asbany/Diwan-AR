@@ -1,3 +1,4 @@
+///////// Fonts /////////////
 @font-face {
     font-family:GE-bold;
     src: url(../css/fonts/GE_SS_Two_Bold.otf);
@@ -10,15 +11,7 @@
     font-family:GE-light;
     src: url(../css/fonts/GE_SS_Two_Light-1.otf);
 }
-
-:root,
-html,
-body {
-    font-family: GE-light;
-}
-
-
-
+/////////////// Responsive Media Q Mixin ////////////////
 @mixin respond($breakpoint) {
     @if $breakpoint == xm {
         @media (min-width:440px) and (max-width: 575.98px) {@content};
@@ -41,3 +34,20 @@ body {
     }
 
 }
+///////////////////// COLORS //////////////////////
+
+$color-primary: #ff0000;
+$black: #000000;
+$white: #fff;
+
+
+
+///////////////////// Root font family/size //////////////////////
+:root,
+html,
+body {
+    font-family: GE-light;
+    font-size: 62.50%;
+}
+
+////////////////////

@@ -10,14 +10,74 @@
 :root,
 html,
 body {
-  font-family: GE-light; }
+  font-family: GE-light;
+  font-size: 62.50%; }
 
-.header__cart {
-  border-color: transparent; }
+.btn--red {
+  background-color: #ff0000;
+  color: #fff; }
+
+.t1 {
+  font-size: 2.8rem; }
+  .t1--bold {
+    font-family: GE-bold; }
+
+.t2 {
+  font-size: 1.4rem; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; }
+  .header__cart {
+    border-color: transparent; }
+    @media (min-width: 576px) {
+      .header__cart {
+        border-color: white; } }
+  .header__logo {
+    max-width: 4rem; }
+
+.site__wrap {
+  overflow: hidden; }
+
+.header__slider {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  overflow-y: hidden; }
+
+.carousel-item {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
   @media (min-width: 576px) {
-    .header__cart {
-      border-color: white; } }
-.header__logo {
-  max-width: 4rem; }
+    .carousel-item {
+      height: 100vh; } }
+  .carousel-item--1 {
+    background-image: url(../img/slider-1.jpg); }
+  .carousel-item--2 {
+    background-image: url(../img/slider-2.jpg); }
+  .carousel-item--3 {
+    background-image: url(../img/slider-3.jpg); }
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  left: 5%;
+  bottom: auto;
+  transform: translateY(-50%); }
+  @media (min-width: 576px) {
+    .carousel-caption {
+      right: 25%;
+      left: 25%; } }
+
+.section__hidden {
+  height: 80vh; }
+  @media (min-width: 576px) {
+    .section__hidden {
+      height: 100vh; } }
 
 /*# sourceMappingURL=style.css.map */

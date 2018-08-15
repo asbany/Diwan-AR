@@ -1,0 +1,24 @@
+////////////// BTNs ///////////////////
+.btn {
+
+    &--red {
+        background-color: $color-primary;
+        color: $white;
+    }
+}
+
+//////////// TYPO //////////////
+
+.t1 {
+
+    font-size: 2.8rem;
+    &--bold {
+        font-family: GE-bold;
+    }
+}
+
+
+.t2 {
+    font-size: 1.4rem;
+}
+
