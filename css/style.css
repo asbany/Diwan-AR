@@ -1,0 +1,23 @@
+@font-face {
+  font-family: GE-bold;
+  src: url(../css/fonts/GE_SS_Two_Bold.otf); }
+@font-face {
+  font-family: GE-mediam;
+  src: url(../css/fonts/GE_SS_Two_Medium.otf); }
+@font-face {
+  font-family: GE-light;
+  src: url(../css/fonts/GE_SS_Two_Light-1.otf); }
+:root,
+html,
+body {
+  font-family: GE-light; }
+
+.header__cart {
+  border-color: transparent; }
+  @media (min-width: 576px) {
+    .header__cart {
+      border-color: white; } }
+.header__logo {
+  max-width: 4rem; }
+
+/*# sourceMappingURL=style.css.map */

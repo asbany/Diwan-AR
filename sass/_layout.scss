@@ -1,0 +1,18 @@
+/////////////// HEADER NAVBAR ////////////////
+
+.header {
+
+    &__cart {
+        border-color: transparent;
+        @include respond(sm) {
+            border-color: white;
+        }
+    }
+
+    &__logo {
+        max-width: 4rem;
+    }
+
+}
+
+

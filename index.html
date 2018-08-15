@@ -15,8 +15,42 @@
         <title>ديوان</title>
     </head>
     <body>
-
-        
+        <header class="header">
+            <div class="container bg-transparent">
+                <nav class="header__navbar navbar">
+                    <a href="#" class="navbar-brand order-2 ml-auto">
+                        <img src="img/logo.png" alt="logo" class="header__logo img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header__menu">
+                        <i class="fas fa-bars text-white"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="header__menu">
+                        <ul class="navbar-nav header__navmenu text-center">
+                            <li class="nav-item"><a href="#" class="nav-link text-white">الرئيسية</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">خدمات المؤثرين</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">كاتالوج المؤثرين</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">المنتجين</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">المعلنين</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">فيديو</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">الانجازات الشهرية</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-white">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="navitem d-none d-sm-inline">
+                        <i class="fas fa-user text-white"></i>
+                    </a>
+                    <a href="#" class="nav-item d-none d-sm-inline ml-4">
+                        <button class="btn btn-outline-light px-4 py-0">الانضمام</button>
+                    </a>
+                    <a href="#" class="nav-item ml-sm-4">
+                        <button class="btn btn-outline-light px-sm-4 py-0 header__cart">
+                            <span><i class="fas fa-shopping-cart text-white"></i></span>
+                            <span class="d-none d-sm-inline">متجر ديوان</span>
+                        </button>
+                    </a>
+                </nav>
+            </div>
+        </header>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
