@@ -20,5 +20,39 @@
 
 .t2 {
     font-size: 1.4rem;
+    
+
+    &--bold {
+        font-family:GE-bold;
+    }
 }
 
+.t3 {
+    font-size: 1.2rem;
+}
+
+.text-black {
+    color:$black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/////////////////
+
+.red__break {
+    width:6rem;
+    height: 1rem;
+    background-color: $color-primary;
+}
+
+
+.bg-smallarrow {
+    background-image: url(../img/small-arrows.png);
+    background-repeat: no-repeat;
+    background-position: 0 45%;
+    background-size: 6rem;
+
+}

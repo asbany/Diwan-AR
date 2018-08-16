@@ -24,6 +24,28 @@ body {
 
 .t2 {
   font-size: 1.4rem; }
+  .t2--bold {
+    font-family: GE-bold; }
+
+.t3 {
+  font-size: 1.2rem; }
+
+.text-black {
+  color: #000000; }
+
+.hidden {
+  visibility: hidden; }
+
+.red__break {
+  width: 6rem;
+  height: 1rem;
+  background-color: #ff0000; }
+
+.bg-smallarrow {
+  background-image: url(../img/small-arrows.png);
+  background-repeat: no-repeat;
+  background-position: 0 45%;
+  background-size: 6rem; }
 
 .header {
   position: fixed;
@@ -73,11 +95,25 @@ body {
     .carousel-caption {
       right: 25%;
       left: 25%; } }
-
-.section__hidden {
-  height: 80vh; }
+.carousel-indicators {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  left: -40%;
+  bottom: 4vh; }
   @media (min-width: 576px) {
-    .section__hidden {
-      height: 100vh; } }
+    .carousel-indicators {
+      left: 75%; } }
+  .carousel-indicators .active {
+    background-color: #ff0000; }
+
+.hidden__wrap {
+  margin-top: 80vh;
+  background-color: white;
+  position: relative; }
+  @media (min-width: 576px) {
+    .hidden__wrap {
+      margin-top: 100vh;
+      background-color: #fff; } }
 
 /*# sourceMappingURL=style.css.map */

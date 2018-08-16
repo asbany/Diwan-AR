@@ -73,13 +73,42 @@
         }
 
     }
+
+
+    &-indicators {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        left: -40%;
+        bottom: 4vh;
+
+
+        @include respond(sm) {
+            left: 75%;
+        }
+
+        & .active {
+            background-color: $color-primary;
+        }
+    }
+
+    
 }
 
 
-///////////// Hidden Section ///////////////
-.section__hidden {
-    height: 80vh;
+///////////// Hidden Wrap ///////////////
+.hidden__wrap {
+    margin-top: 80vh;
+    background-color: white;
+    position: relative;
     @include respond(sm) {
-        height: 100vh;
+        margin-top: 100vh;
+        background-color: $white;
     }
+}
+
+//////////// About //////////////
+.about {
+
+   
 }
