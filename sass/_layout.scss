@@ -107,8 +107,105 @@
     }
 }
 
-//////////// About //////////////
-.about {
+////////////////// separate /////////////
 
-   
+.separate {
+
+    margin-top: -1rem;
+    margin-bottom: -2rem;
+    position: relative;
+    z-index: 1030;
+    
+
+
+    @include respond(sm) {
+        margin-top: -2rem;
+        margin-bottom: -4rem;
+    }
+
+    @include respond(lg) {
+        margin-top: -3rem;
+        margin-bottom: -6rem;
+    }
+    
 }
+
+///////////// Inf ///////////////
+
+.inf {
+
+    &__titlebox {
+        background-image: url(../img/inf-bg.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        padding-right: 15%;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        position: relative;
+        @include respond(sm) {
+            padding-top: 5rem;
+        }
+    }
+
+    &__title {
+
+        font-size: 3.7rem;
+        
+    }
+
+    &__bodytext {
+        padding: 4.5rem;
+    }
+
+
+    &__grid {
+
+        &-imgbox {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+
+            &--top {
+                padding-top: 100%;
+            }
+
+            &--sidetop {
+                padding-top: 100%;
+            }
+
+            &--sidebot {
+                padding-top: 55%;
+
+            }
+
+            &--botmid {
+                padding-top: 116%;
+            }
+
+            &--botright {
+                padding-top: 93%;
+            }
+        }
+
+        &-img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+        &-title {
+            position: absolute;
+            top: auto;
+            left:5%;
+            bottom: 2%;
+            font-size: 2rem;
+        }
+
+    }
+}
+

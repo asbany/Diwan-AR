@@ -116,4 +116,62 @@ body {
       margin-top: 100vh;
       background-color: #fff; } }
 
+.separate {
+  margin-top: -1rem;
+  margin-bottom: -2rem;
+  position: relative;
+  z-index: 1030; }
+  @media (min-width: 576px) {
+    .separate {
+      margin-top: -2rem;
+      margin-bottom: -4rem; } }
+  @media (min-width: 992px) {
+    .separate {
+      margin-top: -3rem;
+      margin-bottom: -6rem; } }
+
+.inf__titlebox {
+  background-image: url(../img/inf-bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-right: 15%;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  position: relative; }
+  @media (min-width: 576px) {
+    .inf__titlebox {
+      padding-top: 5rem; } }
+.inf__title {
+  font-size: 3.7rem; }
+.inf__bodytext {
+  padding: 4.5rem; }
+.inf__grid-imgbox {
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+  .inf__grid-imgbox--top {
+    padding-top: 100%; }
+  .inf__grid-imgbox--sidetop {
+    padding-top: 100%; }
+  .inf__grid-imgbox--sidebot {
+    padding-top: 55%; }
+  .inf__grid-imgbox--botmid {
+    padding-top: 116%; }
+  .inf__grid-imgbox--botright {
+    padding-top: 93%; }
+.inf__grid-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+.inf__grid-title {
+  position: absolute;
+  top: auto;
+  left: 5%;
+  bottom: 2%;
+  font-size: 2rem; }
+
 /*# sourceMappingURL=style.css.map */
