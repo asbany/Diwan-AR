@@ -18,7 +18,35 @@
         max-width: 4rem;
     }
 
+    &__navmenu {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 }
+
+#header__menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+    background-color: rgba(0,0,0,.8);
+    
+}
+
+//// Nav menu close btn ///
+.close {
+    position: absolute;
+    top:5%;
+    right: 10%;
+    
+}
+
+//////////////// Site Wrap ///////////////
 
 .site__wrap {
     overflow: hidden;
@@ -203,7 +231,10 @@
             top: auto;
             left:5%;
             bottom: 2%;
-            font-size: 2rem;
+            font-size: 1.4rem;
+            @include respond(sm) {
+                font-size: 2rem;
+            }
         }
 
     }
