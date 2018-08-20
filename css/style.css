@@ -231,4 +231,9 @@ body {
   height: 100%;
   margin-right: 2rem; }
 
+.section__adve {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(255, 255, 255, 0.8) 100%), url(../img/adv-bg.png);
+  background-size: cover;
+  background-position: top; }
+
 /*# sourceMappingURL=style.css.map */
