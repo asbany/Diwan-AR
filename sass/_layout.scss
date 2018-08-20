@@ -240,3 +240,48 @@
     }
 }
 
+///////////////// producers ////////////////////
+
+
+
+
+.producers {
+
+
+    &__bg {
+        background-image: url(../img/prod.png);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-size: 5rem;
+
+        @include respond(sm) {
+            background-size: 10rem;
+        }
+    }
+
+    &__textbox {
+        padding-right: 15%;
+        @include respond(lg) {
+            padding-right: 10%; 
+        }
+    }
+
+
+
+    
+    &__img {
+        top: 50%;
+        right:0;
+        transform: translateY(-50%);
+        max-width: 9rem;
+    }
+
+
+    &__slide {
+        width:5rem;
+        height: 100%;
+        margin-right: 2rem;
+    }
+
+}
+

@@ -22,11 +22,17 @@ body {
 
 .t1 {
   font-size: 2.8rem; }
+  @media (min-width: 576px) {
+    .t1 {
+      font-size: 3.5rem; } }
   .t1--bold {
     font-family: GE-bold; }
 
 .t2 {
   font-size: 1.4rem; }
+  @media (min-width: 576px) {
+    .t2 {
+      font-size: 2rem; } }
   .t2--bold {
     font-family: GE-bold; }
 
@@ -49,6 +55,9 @@ body {
   background-repeat: no-repeat;
   background-position: 0 45%;
   background-size: 6rem; }
+
+.bg-red {
+  background-color: #ff0000; }
 
 .header {
   position: fixed;
@@ -198,5 +207,28 @@ body {
   @media (min-width: 576px) {
     .inf__grid-title {
       font-size: 2rem; } }
+
+.producers__bg {
+  background-image: url(../img/prod.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: 5rem; }
+  @media (min-width: 576px) {
+    .producers__bg {
+      background-size: 10rem; } }
+.producers__textbox {
+  padding-right: 15%; }
+  @media (min-width: 992px) {
+    .producers__textbox {
+      padding-right: 10%; } }
+.producers__img {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  max-width: 9rem; }
+.producers__slide {
+  width: 5rem;
+  height: 100%;
+  margin-right: 2rem; }
 
 /*# sourceMappingURL=style.css.map */
